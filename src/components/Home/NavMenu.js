@@ -67,9 +67,9 @@ class NavMenu extends Component {
             </a>
           </div>
           <div className="navmenu-item">
-            <a href="#">
+            <Link to='/ContactUs'>
               <i className="navmenu-react-icons"><MdContactMail className="navmenu-icons-hover"/></i>
-            </a>
+            </ Link>
           </div>
           <div className="navmenu-item">
             <Link to='/gallery'>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Location from '../Location/Location';
 import './ContactUs.css';
 import logoTwitter from './assets/twitter.png';
 import logoFacebook from './assets/facebook.png';
@@ -65,15 +66,14 @@ class ContactUs extends Component {
 
     return (
             <div className="fullpage1">
-            <div>
                 <div className="ContactUs">
                     <div className="contact-information">
                       <ul className="text-justify">
                         <li className="title-justify list-justify">Contact Information</li>
                         <li className="first-text-justify">Fill up the form and our Team will get back to you within 24 hours.</li>
-                <li className="list-justify"><img className="logo " src={logoMap} />44 rue Alphonse Penaud,<br />75020 Paris</li>
-                <li className="list-justify"><img className="logo" src={logoEmail} />paris@wildcodeschool.com</li>
-                <li className="list-justify"><img className="logo" src={logoPhone} />+33 (0)7 84 39 08 74</li>
+                <li className="list-justify"><img className="ContactUs-logo " src={logoMap} />44 rue Alphonse Penaud,<br />75020 Paris</li>
+                <li className="list-justify"><img className="ContactUs-logo" src={logoEmail} />paris@wildcodeschool.com</li>
+                <li className="list-justify"><img className="ContactUs-logo" src={logoPhone} />+33 (0)7 84 39 08 74</li>
                       </ul>
                 <div className="logo-bar">
                 <a href="https://twitter.com/WildCodeSchool?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noreferrer" alt="Twitter Wild Code School">
@@ -114,8 +114,8 @@ class ContactUs extends Component {
                     </form>
                     </div>
             </div>
-            </div>
             <div className="Location">
+              <Location />
             </div>
             </div>
     );
