@@ -5,7 +5,7 @@
     letter-spacing: .0.5rem;
 }
 
-.ContactUs {
+.contact-us-ContactUs {
     float: left;
     width: 85%;
     background-color: #E5E5E5;
@@ -17,10 +17,9 @@
 
 .Location {
     width: 15%;
-    float: right;
 }
 
-.contact-information {
+.contact-us-contact-information {
     width: 30%;
     background-color: black;
     border-radius: 10px;
@@ -34,12 +33,12 @@
     height: 100px;
 }
 
-.title-justify {
+.contact-us-title-justify {
     text-align: center;
     font-size: 30px
 }
 
-.text-justify {
+.contact-us-text-justify {
     color: white;
     font-size: 25px;
     text-align: left;
@@ -52,7 +51,7 @@
     margin-right: 20px;
 }
 
-.list-justify {
+.contact-us-list-justify {
     list-style-type: none;
     margin: 60px 20px;
 }
@@ -65,7 +64,7 @@
     margin-left: 72px;
 }
 
-.logo {
+.contact-us-logo {
     -webkit-filter: invert(100%);
     filter: invert(100%);
     width: 30px;
@@ -73,25 +72,23 @@
     float: left;
 }
 
-
 .align {
     display: flex;
 }
 
-.network-logo {
+.contact-us-network-logo {
     -webkit-filter: invert(100%);
     filter: invert(100%);
     margin: 10px;
     width: 40px;
 }
 
-.logo-bar {
-
+.contact-us-logo-bar {
     width: 100%;
     margin: auto 100px;
 }
 
-.formulaire {
+.contact-us-formulaire {
     display: grid;
     grid-template-columns: 40% 40%;
     grid-template-rows: 10px 10px 10px 10px 10px 4px 10px;
@@ -101,7 +98,7 @@
     margin-top: 10%;
 }
 
-.formulaire-content {
+.contact-us-formulaire-content {
     width: 60%;
     float: right;
     height: 90%;

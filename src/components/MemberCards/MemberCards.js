@@ -11,7 +11,7 @@ const MemberCards = () => {
   }, []);
 
   return (
-    <div className='memberCardsDiv'>
+    <div>
       {
        members.map(member => <DisplayMembers key={member.id} avatar={member.avatar} name={member.name}
        linkedin={member.linkedin} github={member.github}/>)

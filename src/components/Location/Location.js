@@ -21,7 +21,7 @@ const Location = () => {
   }, [open]);
 
   return (
-            <div className="bloc">
+            <div>
               <div className='location_container' >
                 <div id='location_page-title'>
                   <h1>{pageTitle}</h1>
