@@ -18,6 +18,8 @@ function Intro () {
         dropped from the institutional name in 2008. The collections include approximately 250,000 objects in all media, ranging in date from antiquity
         to the present and originating in Europe, North America, North Africa, the Middle East, South Asia, East Asia, and Southeast Asia.
       </p>
+
+      Harvard Art Museums
       </div>
   );
 }
