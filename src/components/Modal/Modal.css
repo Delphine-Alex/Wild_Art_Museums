@@ -46,18 +46,9 @@
 .modalBody {
   background: var(--second-color);
   overflow: auto;
-}
-
-.modalFooter {
-  background-color: var(--second-color);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  color: var(--second-color);
-  padding: 10px;
   display: flex;
-  text-align: center;
-  justify-content: flex-end;
-  border-top: 1px solid var(--light-grey-color);
+  justify-content: space-around;
+  padding: 30px 10px;
 }
   
 .modalBtn {
@@ -89,5 +80,11 @@
   }
   .modalBackground{
     background-color: var(--second-color);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .modalContainer {
+    flex: 0 1 95%;
   }
 }

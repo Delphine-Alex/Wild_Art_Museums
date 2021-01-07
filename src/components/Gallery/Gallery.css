@@ -1,15 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container-gallery {
   position: relative;
   column-count: 3;
   padding: 10px;
-  width: 90%;
+  width: 89%;
 }
 
 .gallery-img {
-  display: inline-block;
-  margin-bottom: 10px;
   overflow: hidden;
-  margin: 20px;
+  padding: 10%;
 }
 
 .gallery-img img {
@@ -140,6 +142,9 @@ input:disabled, input[displayBtnNext], input[displayBtnPrev], input:disabled:hov
   .gallery-img img {
     width: 85%;
   }
+  .scrolltop {
+    margin-left: 7%;
+  }
 }
 
 @media screen and (max-width: 424px) {
@@ -163,6 +168,55 @@ input:disabled, input[displayBtnNext], input[displayBtnPrev], input:disabled:hov
   }
   .gallery-img img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .container-gallery {
+    column-count: 1;
+    width: 80%; /* test */
+  }
+  
+  .description-content {
+    text-align: justify;
+    text-align-last: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container-gallery {
+    column-count: 1;
+    width: 85%;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+    position: inherit;
+  }
+  .gallery-media-location {
+    display: none;
+  }
+  .gallery-img img {
+    width: 100%;
+  }
+  .divBouton {
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 90px;
+  }
+  .scrolltop {
+    padding: 14px 14px;
+    margin-left: 5%;
+  }
+  .comicDetails {
+    flex: 0 1 85%;
+  }
+  .description-content {
+    text-align: justify;
+    text-align-last: center;
+  }
+  .comicDetails a {
+    font-size: 0.9em;
   }
 }
 
